@@ -1,0 +1,10 @@
+07/11/2022 04:41:23 PM : INFO : Started server process [6352]
+07/11/2022 04:41:23 PM : INFO : Waiting for application startup.
+07/11/2022 04:41:23 PM : INFO : Application startup complete.
+07/11/2022 04:42:05 PM : INFO : 'filename':Ferrari California Convertible 2012.jpg,'class_name':Ferrari California Convertible 2012,'confidence':0.9984127283096313
+07/11/2022 04:42:15 PM : INFO : 'filename':HUMMER H2 SUT Crew Cab 2009.jpg,'class_name':HUMMER H2 SUT Crew Cab 2009,'confidence':0.9809706807136536
+07/11/2022 04:42:26 PM : INFO : 'filename':Lamborghini Aventador Coupe 2012.jpg,'class_name':Ford GT Coupe 2006,'confidence':0.5782764554023743
+07/11/2022 04:42:48 PM : WARNING : File 'app.py' is not an image.
+07/11/2022 04:43:22 PM : WARNING : File 'requirements.txt' is not an image.
+07/11/2022 04:43:55 PM : INFO : 'filename':mobile_net_model_image.png,'class_name':Lamborghini Gallardo LP 570-4 Superleggera 2012,'confidence':0.6981292366981506
+07/11/2022 04:44:11 PM : WARNING : File 'demo.webm' is not an image.

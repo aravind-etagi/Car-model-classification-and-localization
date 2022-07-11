@@ -1,0 +1,7 @@
+fastapi==0.78.0
+numpy==1.21.5
+Pillow==9.2.0
+pydantic==1.9.0
+starlette==0.19.1
+tensorflow==2.7.0
+uvicorn==0.18.2
