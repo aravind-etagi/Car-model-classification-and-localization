@@ -12,7 +12,20 @@ https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset
 2. Bounding box information about the car object in the images is provided in the csv format
 
 ## Model Summary
-![model_summary](https://github.com/aravind-etagi/car-model-classification-and-localization/blob/master/demo_files/mobile_net_model_image.png)
+
+```mermaid
+flowchart TD
+    A[Input Layer] --> |None,224,224,3| B[mobilenet.preprocess_input]
+    B --> |None,224,224,3| C[MobileNet]
+    C --> |None,7,7,1024| D[GlobalAvragePooling2D]
+    D --> |None,1024| E[box_out]
+    D --> |None,1024| F[class_out]
+    E --> |None,4| G[Output]
+    F --> |None,196| G[Output]
+```
+
+
+<!-- ![model_summary](https://github.com/aravind-etagi/car-model-classification-and-localization/blob/master/demo_files/mobile_net_model_image.png) -->
 
 ## Sample detection
 Input Image                |  Predicted Image
